@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body {
+	background-image:url(images/bg.png);
+	background-color:#00afd8;
+	background-repeat:repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size:80%;
+	font-family:"Lucida Sans", Lucida, Verdana, sans-serif;
+	height:100%;
+}
+
+#body #illu {
+	background:transparent url(images/illu.png) no-repeat 100% 200px;
+}
+
+#body #illu2 {
+	background:transparent url(images/illu2.png) no-repeat 5% 200px;
+}
+
+#body #header {
+	width: 248px;
+	height: 15px;
+	margin: 0;
+	padding: 20px;
+	margin-bottom:15px;
+	background: #00afd8 url(images/logo_nega.png) no-repeat 0 10px;
+}
+
+#body form {
+	margin-top: 40px;
+}
+
+#body p {
+	line-height: 1.5;
+	font-size: 1.5em;
+	
+}
+
+#body h1 {
+	font-size:3em;
+	font-weight:normal;
+}
+
+#body h1#mainheader {
+	background-image:url(images/header.png);
+	width:545px;
+	height:42px;
+}
+
+#body h1#mainheader span {
+	position: absolute; left: -9000px;
+}
+
+#body strong {
+background-color:#92e1f4;
+color:#02596d;
+font-weight:normal;
+padding:0 0.2em;}
+
+
+#body .btn	 {
+	float: left;
+	margin-bottom: 4em;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#body .field {
+	float: left;
+}
+
+#body a, #body a:visited {color:#9de8fa;
+text-decoration:none;
+border-bottom:1px dashed #9de8fa;}
+
+#body label {
+	font-weight: bold;
+}
+
+#body input.text {
+	width: 15em;
+	border: 1px solid #0186a0;
+	font-size: 1em;
+	color: gray;
+	padding: 0.1em;
+	display:block;
+	margin-bottom:0.5em;
+}
+
+#body .footer {
+	color:#02596d;
+	font-size: 1em;
+	margin-top: 1em;
+	clear: both;
+	text-align:center;
+	clear:both;
+}
+
+#body p.footer {
+background:none;
+}
+
+#body .footer a {
+	color:#02596d;
+text-decoration:none;
+border-bottom:1px dashed #02596d;
+
+}
+
+#body img.illu {
+	float: right;
+}
+
+#body #wrap {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#body #form_error {
+       color: #f00;
+       margin-top: 5px;
+       margin-left:90px;
+}
+
+#login, #register {
+	padding:1.5em;
+	margin-top:1em;
+	border:1px solid #76d9f0;
+	background:transparent url(images/bg_tr.png) repeat;
+	width:40%;
+	font-size:1.2em}
+
+#register {
+	margin-right:1em;
+	float:left;
+	}
+
+#login{
+	float:right;
+}
+
+#body .image-btn {
+margin-top:0.5em;}
+
+p.notification {padding:.8em;margin-bottom:1em;border:1px solid #ddd;background:#FFF6BF;color:#514721;border-color:#FFD324;}
+
+.clearfix:after {
+	content:"."; display: block; height: 0; clear:both; visibility: hidden
+	}
